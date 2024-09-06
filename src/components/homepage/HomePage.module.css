@@ -1,0 +1,151 @@
+.homePage {
+  color: #fff;
+}
+.homePage :global(.video-js) {
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+}
+.homePage :global(.video-js::before) {
+  padding-top: var(--padding-top);
+  content: '';
+  display: block;
+}
+.homePage :global(.vjs-tech) {
+  right: 0;
+  bottom: 0;
+}
+.homePage :global(.vjs-loading-spinner) {
+  display: none !important;
+}
+.homePageHeader {
+  padding: 0.6em 0.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  transition: background-color ease-in-out 150ms;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerLinks {
+  display: flex;
+}
+.headerLink {
+  color: white;
+  width: 2em;
+  height: 2em;
+  margin-right: 0.65em;
+  /* background: url('https://cdn.workmob.com/stories_workmob/images/promotional/button-bg.png') center center / 100% 100%; */
+  background: url('https://cdn.workmob.com/stories_workmob/images/promotional/button-bg.png');
+  background-size: 99% 100% !important;
+  border-radius: 50%;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homePageVideos {
+  margin-bottom: 3em;
+}
+.logoImg {
+  width: 9em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.shortText {
+  display: none;
+}
+.customBtn {
+  font: 400 0.9em "Alata", sans-serif;
+  color: inherit;
+  background-image: url("https://cdn.workmob.com/stories_workmob/images/promotional/button-bg.png");
+  background-size: 100% 100%;
+  text-decoration: none;
+  padding: 0.3em 0.6em;
+  border-radius: 30px;
+}
+.customBtn:hover {
+  color: inherit;
+}
+.videoContainer {
+  position: relative;
+}
+.videoPoster {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+}
+.muteContainer {
+  position: absolute;
+  right: 0.5em;
+  bottom: 0.5em;
+  display: flex;
+  align-items: center;
+}
+.muteText {
+  margin-right: 0.5em;
+  text-shadow: 0 3px 3px black, -3px 0 3px black;
+  font-weight: 400;
+}
+.customIcon {
+  width: 1.5em;
+  height: 1.5em;
+  padding-right:0.2em !important;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: opacity linear 150ms;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customPlayIcon {
+  width: 1.5em;
+  height: 1.5em;
+  /* padding: 0.25em !important; */
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: opacity linear 150ms;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  .homePageHeader {
+    font-size: 11px;
+    position: sticky;
+    position: -webkit-sticky;
+    background: black;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 3px 6px;
+  }
+  .homePageVideos {
+    margin-bottom: 1.5em;
+  }
+  .shortText {
+    display: inline;
+  }
+  .fullText {
+    display: none;
+  }
+  .muteContainer {
+    font-size: 13px;
+  }
+}

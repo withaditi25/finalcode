@@ -1,0 +1,115 @@
+
+::marker {
+  display: none;
+}
+
+b,
+strong,
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+.container {
+  width: calc(100% - 30px);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+}
+
+.flexRow {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.tabs {
+  margin: 0;
+  padding: 0;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabs li {
+  cursor: pointer;
+  font-size: 10px;
+  padding: 10px 5px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.listing li {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.legal p {
+  margin: 0;
+  color: white;
+}
+
+.legal a {
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.legal a,
+.legal a i {
+  color: white;
+  text-decoration: none;
+}
+
+.legal a:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.listing li p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.tabs li a, .tabs li span  {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.tabs li span {
+  cursor: default;
+}
+
+.listing li.column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-bottom: 0;
+}
+
+.listing li .list {
+  padding-right: 10px;
+}
+
+.tabs li:first-child {
+  padding-left: 0;
+}
+
+.tabs li:hover a,
+.tabs li.active span {
+  color: #f96332;
+  text-decoration: none;
+}

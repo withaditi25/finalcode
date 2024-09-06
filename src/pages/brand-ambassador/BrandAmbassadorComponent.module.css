@@ -1,0 +1,377 @@
+.logoContainer {
+  margin-bottom: 0.2em;
+}
+
+.logoContainer::after {
+  content: '';
+  width: 35px;
+  height: 4px;
+  background: #F96332;
+  margin: 0.7em auto 0;
+  display: block;
+}
+
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
+
+.thumbContainer {
+  min-height: 110px;
+}
+
+.muteContainer {
+  height: 40px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.imgContainer {
+  width: 96% !important;
+  position: relative;
+}
+
+.imgContainer img:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.thumbnail {
+  border-radius: 10px;
+  aspect-ratio: 16 / 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.brandLogo {
+  width: 180px;
+  margin: 12px 0 0 0;
+}
+
+.pageTitle {
+  color: #fff;
+  font-family: "Alata", sans-serif;
+  font-size: 22px;
+  margin: 0 0 0.5em;
+  padding: 0;
+  padding-top: 3px;
+}
+
+.verticalScrolling {
+  height: 100%;
+  position: relative;
+  text-align: center;
+  padding: 10px 15px;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.videoContainer {
+  position: relative;
+  width: 65%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.videoContainer > div {
+  padding: 0 !important;
+  width: 100%;
+  height: auto;
+}
+
+.videoContainer video {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 1px 1px 12px 12px rgba(0, 0, 0, 0.25);
+  background-size: 1px 1px, calc(100% - 2px) 3px, 1px 1px, 3px calc(100% - 2px);
+  background-position: top left, top center, top right, center right,
+    bottom right, bottom center, bottom left, center left;
+  background-repeat: no-repeat;
+}
+
+.videoContainer .buttonContainer {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 8px;
+  left: 6px;
+  width: 100% !important;
+  padding: 0 5px 0 10px;
+  box-sizing: border-box;
+}
+
+.greetContainer {
+  display: flex;
+
+  justify-content: center;
+}
+
+.ambassadorGreeting {
+  color: white;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.ambasaddorBar {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: black;
+}
+
+.ambasaddorBar button {
+  background-image: url(https://cdn.workmob.com/stories_workmob/images/promotional/button-bg.png);
+  border: none;
+  border-radius: 22px;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 32px;
+  background-size: cover;
+  font-weight: 600;
+}
+
+.ambasaddorBar .ambasaddorTitle {
+  padding-left: 22px;
+  font-size: large;
+}
+
+.ambasaddorBar button {
+  margin-right: 22px;
+  font-size: 15px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.ambassadorWhatsappContact {
+  text-decoration: none;
+  cursor: auto;
+}
+
+.ambassadorWhatsappContact {
+  text-decoration: none;
+  cursor: auto;
+}
+
+.clickContainer {
+  z-index: 999;
+  position: absolute;
+  font-size: 2.5vh;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playIcon {
+  font-size: 0.8em;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 0.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.fullScrnContainer {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 33px !important;
+  height: 33px !important;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  position: absolute;
+  bottom: 2px;
+  right: 0;
+}
+
+.internalContainer {
+  width: 15px;
+  height: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+.box1 {
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+}
+
+.box2 {
+  border-top: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+}
+
+.box3 {
+  border-bottom: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+}
+
+.box4 {
+  border-bottom: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+}
+
+.arrowContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.arrowContainer svg {
+  display: block;
+  cursor: pointer;
+  font-size: 32px;
+  color: rgba(199, 191, 191, 0.7);
+}
+
+@media (max-width: 768px) {
+  .verticalScrolling {
+    aspect-ratio: 16 / 9;
+    margin-top: 24px;
+  }
+
+  .muteContainer {
+    position: unset;
+  }
+
+  .thumbContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 20px 0;
+    margin: 0 10px;
+    min-height: 220px;
+  }
+
+  .fullScrnContainer {
+    width: 24px !important;
+    height: 24px !important;
+    right: 0;
+    top: -25px;
+  }
+
+  .internalContainer {
+    width: 13px;
+    height: 13px;
+  }
+
+  .vidThumbContainer {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+  }
+
+  .thumbnail {
+    border-radius: 7px;
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .imgContainer {
+    width: 100% !important;
+  }
+
+  .bigVideo {
+    flex-shrink: 0;
+    aspect-ratio: 16 / 8;
+  }
+
+  .thumbSection {
+    min-height: 0;
+    overflow: auto;
+  }
+
+  .videoContainer {
+    width: 100%;
+  }
+
+  .videoContainer .unmuteBtn {
+    top: 24%;
+    right: 1%;
+  }
+
+  .videoContainer video {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 6px;
+
+    box-shadow: 1px 1px 12px 12px rgba(0, 0, 0, 0.25);
+    background-size: 1px 1px, calc(100% - 2px) 3px, 1px 1px,
+      3px calc(100% - 2px);
+    background-position: top left, top center, top right, center right,
+      bottom right, bottom center, bottom left, center left;
+    background-repeat: no-repeat;
+    padding: 0;
+  }
+
+  .videoContainer .buttonContainer {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 8px;
+    left: 6px;
+    width: 100% !important;
+    padding: 0 5px 0 10px;
+    box-sizing: border-box;
+  }
+
+  .ambasaddorBar button {
+    margin-right: 10px;
+    font-size: 12px;
+    width: 72px;
+    height: 24px;
+  }
+
+  .ambasaddorBar .ambasaddorTitle {
+    padding-left: 10px;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  #playIcon {
+    width: 25px;
+    height: 25px;
+    font-size: 1.2em;
+  }
+
+  .ambassadorGreeting {
+    font-size: 12px;
+    margin: 5px auto;
+  }
+}

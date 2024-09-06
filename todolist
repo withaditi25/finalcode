@@ -1,0 +1,47 @@
+homepagetwo = remove playstore and links(ambassador,about..) from top and put volume icon at bottom.
+switch copyright from left to right and links right to left in footer.
+audio is played on click of tap mute/unmute text so it should be played only on icon.
+in mobile view what'sApp no. is breaking like (9900 and remaining goes in to next line so fix according that mobile no. remain together).
+make whatsapp to WhatsApp . 
+in desktop when video is visible 50% the video should start playing 
+in mobile make video playing autoplay one after one 1 autoplayed and completed then 2 should be start playing auto.
+
+31 march
+homepagetwo desktop == (
+1. remove logo from footer.
+2. remove arrows from carousel and place it b/w gapes in middle change arrows with different arrows.
+3. increase footer's font size of box content.
+4. put lets inspire and we can india can left and right side respectively like about page.
+5. put social media icons on all rigths reserve and playstore icons on about,terms links.
+)
+homepagetwo mobile == (
+1. remove arrows of carousel.
+2. set width of apni kahani ka video text to 96%.
+3. put all rights reserved b/w about,terms links and made in india.
+)
+
+about page == (
+1. make 3 video cards in carousel.
+)
+
+ greetings page == (
+1. play icon on thumbnails
+)
+
+1 april
+homepageDesktop == (
+1.increase margin b/w carousel and footer.
+2.put lets inpire and we can india can ending corresponding with content box ending.)
+
+about page == (
+1. add 4th video as homepage's 1st video .)
+
+greeting == (
+1. put play icon left bottom.
+2. greeting gradient(font family - ), spread happines (font family - alata).
+)
+
+ambassadorpage == (
+1. remove centre tag line and put vlm btn down side
+2. on click on thumbnail screen scroll to top where video is playing.
+)

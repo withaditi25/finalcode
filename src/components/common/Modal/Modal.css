@@ -1,0 +1,38 @@
+.sweet-alert h2 {
+  display: none;
+}
+
+.modalContainer {
+  height: 100%;
+  background-color: var(--black-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url('./blog_bg.jpg');
+  background-size: cover;
+  min-height: 250px;
+}
+
+.modalContainer p {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.dFlex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.dFlex a {
+  margin: 10px 5px;
+}
+
+.contactText {
+  color: white;
+  font-size: 8px;
+  font-family: 'Alata', sans-serif;
+}
+

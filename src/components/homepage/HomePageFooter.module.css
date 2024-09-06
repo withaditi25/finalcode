@@ -1,0 +1,583 @@
+.footerMain {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+  overflow: auto;
+  border-radius: 16px;
+  margin: 40px 10px 0;
+}
+
+.storyContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.watchStories,
+.shareStories {
+  border-radius: 50px;
+  font-family: "Alata", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("https://cdn.workmob.com/stories_workmob/images/promotional/button-bg.png");
+  background-size: cover;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  text-decoration: none;
+  margin: 15px 20px;
+}
+
+.footerContainer {
+  position: relative;
+  z-index: 999;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.footerContainer.mobile {
+  bottom: 16px;
+  width: 100%;
+  padding: 0;
+}
+
+.footer,
+.dflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.dflex {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dflex a img {
+  width: 90px;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.storeBtnContainer {
+  display: flex;
+}
+
+.footer ul li {
+  padding-right: 10px;
+  list-style: none;
+  display: inline-block;
+}
+
+.footer ul li a:hover {
+  color: #f96332;
+}
+
+.footer ul li:last-child {
+  padding: 0;
+}
+
+.footer ul li a,
+.footer p {
+  color: #fff;
+  font-size: 13px;
+  margin: 0;
+  text-decoration: none;
+  line-height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer .appLink {
+  margin-left: 10px;
+}
+
+.fHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4px 0 0 0;
+}
+
+.fHeading h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.fHeading h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+  margin: -18px;
+  font-family: "hp-simplified", sans-serif;
+}
+
+.fHeading h2.flag::after {
+  content: "";
+  width: 50px;
+  height: 4px;
+  background-color: #f96332;
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.fHeading img {
+  padding: 12px 0;
+}
+
+.fContent {
+  margin: 10px auto;
+}
+
+.fContent > img {
+  height: 6vh;
+  max-width: 100%;
+}
+
+.fContent p {
+  color: #fff;
+  font-family: "Alata", sans-serif;
+  margin: -4px 0 8px 0;
+  position: relative;
+}
+
+.fContent p.flag span {
+  font-weight: bold;
+  font-size: 48px;
+  font-family: "hp-simplified", sans-serif;
+  color: #fff;
+}
+
+.fContent p.flag span:nth-child(1) {
+  color: #f96332;
+}
+
+.fContent p.flag span:nth-child(3) {
+  color: #138808;
+}
+
+#flagTwo {
+  font-size: 3vh;
+}
+
+.ParaOne p.flag span {
+  font-weight: bold;
+  font-size: 45px;
+  font-family: "hp-simplified", sans-serif;
+  color: #fff;
+}
+
+.ParaOne p.flag span:nth-child(1) {
+  color: #f96332;
+}
+
+.ParaOne p.flag span:nth-child(3) {
+  color: #138808;
+}
+
+.ParaOne p {
+  margin: 0;
+}
+
+.aboutPara {
+  color: white;
+  background-image: url("./homefooterbg.jpg");
+  background-size: cover;
+  border-radius: 16px;
+  margin: 12px auto;
+  padding: 20px 6px;
+  font-family: "Alata", sans-serif;
+}
+
+.aboutPara p {
+  font-size: 32px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.aboutPara span {
+  color: #f96332;
+}
+
+.homepageFooterSlogan {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.fTagline {
+  font-family: "hp-simplified", sans-serif;
+  font-size: 3vh;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 8px;
+}
+
+.footerBottomContainer {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.copyRight {
+  margin-bottom: 10px;
+}
+
+.bottomBCopyRight {
+  color: #fff;
+  font-size: 12px;
+  margin: 0;
+  text-decoration: none;
+  line-height: 3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomA {
+  width: 100%;
+}
+
+.bottomB {
+  width: 100%;
+}
+
+.bottomC {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bottomUL {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.bottomLI {
+  padding-right: 10px;
+  list-style: none;
+  display: inline-block;
+}
+
+.bottomLI a {
+  color: #fff;
+  font-size: 12px;
+  margin: 0;
+  text-decoration: none;
+  line-height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bottomLI a:hover {
+  color: #f96332;
+}
+
+.copyRightText {
+  color: white;
+  font-size: 13px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bottomBar {
+  background-color: #f96332;
+  width: 48px;
+  height: 4px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.socialPlaystoreContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 0 12px;
+}
+
+.socialLogos img {
+  width: 20px;
+  height: 20px;
+  padding: 0.375rem 0.75rem;
+  opacity: 0;
+}
+
+#youtube {
+  width: 27px;
+  height: 19px;
+}
+
+.homeStoreBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+.storeLinks img {
+  width: 90px;
+}
+
+.storeLinks {
+  margin-left: 10px;
+}
+
+#heartPic {
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;;
+}
+
+#meriKahaniFooter span:nth-child(1) {
+  color: #f96332;
+}
+
+#meriKahaniFooter span:nth-child(2) {
+  color: #138808;
+}
+
+#homePageFooterWhatsapp {
+  color: #e7c822;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#footerLogo {
+  width: 350px;
+}
+
+#wlasiTitle {
+  font-size: 32px;
+  font-family: "Alata", sans-serif;
+  margin-bottom: 0;
+  color: white;
+  margin-top: 0;
+}
+
+#footerPara {
+  font-size: 32px;
+  font-family: "Alata", sans-serif;
+  color: white;
+  margin: 0;
+}
+
+#rightTriClr {
+  height: 30px;
+  margin-top: -41px;
+  margin-right: -6px;
+}
+
+#leftTriClr {
+  height: 27px;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+
+#facebook {
+  width: 14px;
+}
+
+#linkedin {
+  width: 21px;
+  height: 21px;
+}
+
+.socialContainer {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Alata", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .footerMain {
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .fHeading {
+    padding: 0;
+    margin: 0 0 0 0;
+  }
+
+  .fHeading h1 {
+    font-size: 28px;
+    margin-bottom: 6px;
+  }
+
+  .fHeading h2 {
+    font-size: 20px;
+    padding: 5px 15px;
+  }
+
+  .fContent img {
+    max-width: 100%;
+  }
+
+  .fContent {
+    margin: 10px auto;
+  }
+
+  .fHeading img {
+    padding: 0;
+  }
+
+  .fContent p {
+    margin: 0;
+  }
+
+  .homepageFooterSlogan {
+    flex-direction: column;
+  }
+
+  .socialPlaystoreContainer {
+    flex-direction: column;
+  }
+
+  #wlasiTitle {
+    font-size: 22px;
+    margin: 28px 0 6px 0 !important;
+  }
+
+  .fContent p.flag span {
+    font-size: 30px;
+  }
+
+  .fTagline {
+    font-size: 5.5vw;
+    margin-top: 40px;
+    padding: 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    margin-bottom: 8px;
+  }
+
+  .footer .copyRight {
+    margin: 10px 0;
+  }
+
+  #footerLogo {
+    width: 220px;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+
+  .footer ul li a,
+  .footer p {
+    line-height: 1;
+  }
+
+  .watchStories,
+  .shareStories {
+    top: 5px;
+    left: 10px;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    margin: 0;
+  }
+
+  .dflex a img {
+    margin-bottom: 5px;
+  }
+
+  .socialContainer {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .socialLogos img {
+    margin-bottom: 2px;
+  }
+
+  .ParaOne p.flag span {
+    font-size: 8vw;
+  }
+
+  #flagTwo {
+    font-size: 6vw;
+  }
+
+  #footerPara {
+    font-size: 22px;
+  }
+
+  #rightTriClr {
+    height: 21px;
+    margin-top: -30px;
+  }
+
+  #leftTriClr {
+    height: 21px;
+    margin-top: 10px;
+  }
+
+  .aboutPara {
+    width: 90%;
+  }
+
+  .aboutPara p {
+    font-size: 5vw;
+  }
+
+  .footerBottomContainer {
+    flex-direction: column;
+  }
+
+  .bottomC {
+    justify-content: center;
+  }
+
+  #homePageFooterWhatsapp {
+    width: 96%;
+    margin-top: 6px;
+    font-size: 13.5px;
+  }
+
+  .footerContainer {
+    margin-bottom: 25px;
+  }
+
+  .copyRightText {
+    justify-content: center;
+  }
+
+  .bottomB {
+    order: 1;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .socialLogos {
+    margin-bottom: 16px;
+  }
+}
